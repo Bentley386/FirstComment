@@ -1,4 +1,4 @@
-const APIkey = "AIzaSyAczP67DNl4iRqvGwj7ebTb-y5VEmp9VQQ";
+const APIkey = ""; //Your API key here
 let id;
 let num;
 
