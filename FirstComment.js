@@ -77,10 +77,13 @@ function getVidID(){
     let index = raw.indexOf("youtu.be/");
     if (index !== -1){
         return raw.substring(index+9);
+        console.log("nooot");
     }
     index = raw.indexOf("watch?v=");
     if (index !== -1){
+        console.log("sem not");
         return raw.substring(index+8);
     }
+    console.log("ja?");
     return "error"
 }
